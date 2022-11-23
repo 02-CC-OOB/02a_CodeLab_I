@@ -7,25 +7,24 @@ public class App {
 
         Konto konto = new Konto();
 
-        int stand = konto.getZahl();
-        int neuZahl = stand * 2;
+        int oldMon = konto.getZahl();
+        int newMonl = oldMon * 2;
 
-        output("Alter Stand:" + stand + " Neuer Stand:" + neuZahl);
+        output("Alter Stand:" + oldMon + " Neuer Stand:" + newMonl);
 
 
 
         Konto konto2 = new Konto();
         
-        int neuZahl2 = konto2.getZahl() * 3;
-
-        output("Alter Stand:" + stand + " Neuer Stand:" + neuZahl2);
+        int newMon2 = konto2.getZahl() * 3;
+        output("Alter Stand:" + oldMon + " Neuer Stand:" + newMon2);
 
 
 
         Konto konto3 = new Konto();
 
-        int neuZahl3 = konto3.getZahl() * 10;
-        output("Alter Stand:" + stand + " Neuer Stand:" + neuZahl3); 
+        int newMon3 = konto3.getZahl() * 10;
+        output("Alter Stand:" + oldMon + " Neuer Stand:" + newMon3); 
 
     }
 
